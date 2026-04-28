@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://rieth.io">rieth.io</a> ·
-  <a href="https://erp.rieth.io">erp.rieth.io</a>
 </p>
 
 ---
