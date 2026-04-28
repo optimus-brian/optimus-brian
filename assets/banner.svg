@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="rieth.io">
+  <rect width="1200" height="300" fill="#F7F5F0"/>
+
+  <g transform="translate(80,72)">
+    <path fill="#0B1B2A" d="M24 24 L140 24 L176 60 L176 84 C176 102 164 114 146 118 L176 176 L138 176 L108 120 L56 120 L56 176 L24 176 Z M56 54 L140 54 C148 54 152 58 152 66 L152 80 C152 86 148 90 140 90 L56 90 Z"/>
+    <rect x="150" y="24" width="26" height="6" fill="#1F5C85"/>
+  </g>
+
+  <text x="320" y="118" font-family="JetBrains Mono, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="500" letter-spacing="2.5" fill="#4A5A6E">CONSULTING · ENGINEERING · HOMELAB</text>
+
+  <text x="320" y="196" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1" fill="#0B1B2A">rieth<tspan fill="#1F5C85">.</tspan>io</text>
+
+  <text x="320" y="232" font-family="JetBrains Mono, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="0.7" fill="#4A5A6E">Brian Rieth — selbstständig &amp; bei Altenbach GmbH u. Cie</text>
+
+  <line x1="80" y1="262" x2="1120" y2="262" stroke="#D7DCE2" stroke-width="1"/>
+  <text x="80" y="285" font-family="JetBrains Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="0.55" fill="#4A5A6E">SINCE 2020</text>
+  <text x="1120" y="285" text-anchor="end" font-family="JetBrains Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="0.55" fill="#4A5A6E">RIETH.IO</text>
+</svg>
