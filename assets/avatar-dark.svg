@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="rieth.io">
+  <rect width="500" height="500" fill="#0B1B2A"/>
+  <g transform="translate(85,100) scale(1.5)">
+    <g fill="none" stroke="#7FB8DC" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter">
+      <path d="M24 28 L10 28 L10 172 L24 172"/>
+      <path d="M196 28 L210 28 L210 172 L196 172"/>
+    </g>
+    <g transform="translate(3,0)">
+      <path fill="#FFFFFF" d="M48 36 L48 164 L74 164 L74 120 L98 120 L132 164 L166 164 L132 118 C150 112 160 96 160 76 C160 52 142 36 114 36 Z M74 60 L110 60 C124 60 134 66 134 80 C134 94 124 100 110 100 L74 100 Z"/>
+    </g>
+  </g>
+</svg>
