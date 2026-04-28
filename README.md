@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="rieth.io — Consulting · Engineering · Homelab" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <img src="./assets/banner-light.svg" alt="rieth.io — Consulting · Engineering · Homelab" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -8,8 +11,7 @@
 
 <p align="center">
   <a href="https://rieth.io">rieth.io</a> ·
-  <a href="https://erp.rieth.io">erp.rieth.io</a> ·
-  <a href="https://onedev.rieth.io">onedev.rieth.io</a>
+  <a href="https://erp.rieth.io">erp.rieth.io</a>
 </p>
 
 ---
@@ -124,7 +126,6 @@ Plattform für eigene SaaS-Apps und Kunden-Workloads.
 | Standort  | Heidelberg / Rhein-Neckar                            |
 | Mail      | über [rieth.io / #kontakt](https://rieth.io#kontakt) |
 | Web       | [rieth.io](https://rieth.io)                         |
-| Git       | [onedev.rieth.io](https://onedev.rieth.io)           |
 
 ---
 
