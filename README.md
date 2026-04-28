@@ -1,4 +1,4 @@
-<p align="center">
+  <p align="center">
     <img src="./assets/banner.svg" alt="rieth.io — Consulting · Engineering · Homelab" width="100%" />
   </p>
 
@@ -14,14 +14,15 @@
 
   ---
 
-  ### <sub>`§ 01`</sub>  Profil
+  <sub><code>§ 01 — ÜBER MICH</code></sub>
+
+  ### Profil
 
   IT-Infrastruktur, die funktioniert. Pragmatische Lösungen für Server,
   Netzwerke und Automatisierung — von der Planung bis zum laufenden Betrieb.
 
   Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
-  **Bauunternehmung A. Altenbach GmbH u. Cie**. Eigener Stack, eigenes Homelab,
-  eigene Tools — herstellerunabhängig und transparent.
+  **Bauunternehmung A. Altenbach GmbH u. Cie**.
 
   ```
   34+ Server & Container   ·   99.9% Uptime SLA   ·   24/7 Monitoring
@@ -30,7 +31,9 @@
 
   ---
 
-  ### <sub>`§ 02`</sub>  Leistungen
+  <sub><code>§ 02 — SERVICES</code></sub>
+
+  ### Leistungen
 
   | Bereich                           | Stack & Tools                                                           |
   |:----------------------------------|:------------------------------------------------------------------------|
@@ -44,7 +47,9 @@
 
   ---
 
-  ### <sub>`§ 03`</sub>  Stack
+  <sub><code>§ 03 — STACK</code></sub>
+
+  ### Tech
 
   ```
   frontend     Next.js 16 · TypeScript · Tailwind · shadcn/ui · Astro · Vite
@@ -58,21 +63,28 @@
 
   ---
 
-  ### <sub>`§ 04`</sub>  Aktuelle Projekte
+  <sub><code>§ 04 — PROJEKTE</code></sub>
+
+  ### Aktuelle Arbeit
 
   | Projekt                    | Beschreibung                                                                | Stack                                                       |
   |:---------------------------|:----------------------------------------------------------------------------|:------------------------------------------------------------|
-  | `erp`                      | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                | Next.js · FastAPI · PostgreSQL · k3s                        |
+  | `erp.rieth.io`             | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                | Next.js · FastAPI · PostgreSQL · k3s                        |
   | `Altenbach-App`            | Mobile Companion zu iTWO 4.0 — Fahrtenbuch, ERP-Sync, SSO                   | Next.js · Prisma · NextAuth (Entra ID) · k3s 2-Replica      |
   | `BaSec`                    | Freelancermap-Scraping, semantisches Matching, automatisierte CV/Bewerbung  | FastAPI · React · Playwright · Claude API · WeasyPrint      |
-  | `DORA`                     | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal | Python · Ollama · Qdrant · SentenceTransformers · 5-stufige Pipeline |
+  | `DORA.KI`                  | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal | Python · Ollama · Qdrant · SentenceTransformers             |
   | `WeismehlMedia-App`        | ERP & Projektmanagement, JWT-Auth, Rollen, PDF-Renderer                     | FastAPI · React · SQLAlchemy · Flux Image-Policy · k3s      |
   | `SOAR`                     | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN       | FastAPI · Redis · Ollama · Matrix-Bot                       |
+  | `Paperless-AI`             | Dokumenten-Tagging, Steuerabzugs-Erkennung, Rechnungs-Extraktion            | FastAPI (RAG) · Node.js · SQLite                            |
+  | `Clawdbot`                 | KI-Chatbot über WhatsApp, Telegram, Discord, Slack, Matrix, iMessage        | Node.js 22 · Claude / GPT                                   |
   | `superset-fork` · `t8code` | Agent-Orchestrierung — parallele Claude / Codex-Instanzen via Worktrees     | Electron · Claude SDK · TypeScript Monorepo                 |
+  | `rieth.io`                 | Portfolio-Site mit 1999-Geocities-Easter-Egg, Kontakt → Zammad              | Astro 6 · TailwindCSS 4 · Cloudflare Turnstile              |
 
   ---
 
-  ### <sub>`§ 05`</sub>  Homelab & Kubernetes-Cluster
+  <sub><code>§ 05 — INFRASTRUKTUR</code></sub>
+
+  ### Homelab & Kubernetes-Cluster
 
   ```
   hardware     AM5-Host  ·  Ryzen 9950X  ·  64 GB DDR5  ·  10 G Uplinks
@@ -89,28 +101,23 @@
 
   ---
 
-  ### <sub>`§ 06`</sub>  Referenzen
+  <sub><code>§ 06 — REFERENZEN</code></sub>
+
+  ### Kunden
 
   | Kunde                        | Bereich                                          |
   |:-----------------------------|:-------------------------------------------------|
   | Altenbach GmbH u. Cie        | iTWO-Integration, Infrastruktur, Security        |
+  | Edeka Markt 042751           | IT-Betreuung                                     |
   | BaSec                        | Freelancer-Plattform, Recruiting-Automation      |
   | Goldschmiede MB              | IT-Beratung                                      |
   | WeismehlMedia                | ERP / CRM / Projektmanagement                    |
 
   ---
 
-  ### <sub>`§ 07`</sub>  Werte
+  <sub><code>§ 07 — KONTAKT</code></sub>
 
-  ```
-  pragmatisch          Lösungen, die laufen — nicht die größten, sondern die richtigen
-  transparent          klare Doku, klare Preise, kein Vendor-Lock
-  herstellerunabhängig der beste Stack für die Aufgabe, nicht der mit Provision
-  ```
-
-  ---
-
-  ### <sub>`§ 08`</sub>  Kontakt
+  ### Erreichbar
 
   | Kanal     | Adresse                                              |
   |:----------|:-----------------------------------------------------|
