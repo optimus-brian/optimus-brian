@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://rieth.io">rieth.io</a> ·
+  <a href="https://rieth.io">rieth.io</a>
 </p>
 
 ---
