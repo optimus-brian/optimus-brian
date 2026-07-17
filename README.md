@@ -98,6 +98,8 @@ nicht nur auf Folien.
 | `DORA.KI`                  | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal | Python · Ollama · Qdrant · SentenceTransformers             |
 | `weismehlmedia-app`        | ERP & Projektmanagement, JWT-Auth, Rollen, PDF-Renderer                       | FastAPI · React · SQLAlchemy · FluxCD · Kubernetes          |
 | `gsmb-app`                 | Mini-ERP & digitaler Zwilling für Goldschmiede, Shopify-Anbindung             | Next.js · TypeScript · Shopify                              |
+| `broadify.rieth.io`        | Produkt-Landingpage mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz          | Astro SSR · Tailwind · Resend · Turnstile                   |
+| `mk-re`                    | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook            | Astro SSR · Tailwind · GSAP                                 |
 | `SOAR`                     | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN         | FastAPI · Redis · Ollama · Matrix-Bot                       |
 | `Paperless-AI`             | Dokumenten-Tagging, Steuerabzugs-Erkennung, Rechnungs-Extraktion              | FastAPI (RAG) · Node.js · SQLite                            |
 | `Clawdbot`                 | KI-Chatbot über WhatsApp, Telegram, Discord, Slack, Matrix, iMessage          | Node.js · Claude / GPT                                      |
@@ -137,6 +139,8 @@ Plattform für eigene SaaS-Apps und Kunden-Workloads.
 | BaSec                        | Freelancer-Plattform, Recruiting-Automation      |
 | Goldschmiede MB              | IT-Beratung                                      |
 | WeismehlMedia                | ERP / CRM / Projektmanagement                    |
+| broadify GmbH                | Produkt-Landingpage & Hosting (Regie-Koffer)     |
+| MK Realestate Consulting     | Firmen-Homepage, Branding-Umsetzung, Hosting     |
 
 ---
 
