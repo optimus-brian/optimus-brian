@@ -101,10 +101,6 @@ nicht nur auf Folien.
 | `Broadify`                 | Produkt-Landingpage mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz          | Astro SSR · Tailwind · Resend · Turnstile                   |
 | `MKRE`                     | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook            | Astro SSR · Tailwind · GSAP                                 |
 | `SOAR`                     | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN         | FastAPI · Redis · Ollama · Matrix-Bot                       |
-| `Paperless-AI`             | Dokumenten-Tagging, Steuerabzugs-Erkennung, Rechnungs-Extraktion              | FastAPI (RAG) · Node.js · SQLite                            |
-| `Clawdbot`                 | KI-Chatbot über WhatsApp, Telegram, Discord, Slack, Matrix, iMessage          | Node.js · Claude / GPT                                      |
-| `megaset` · `t8code`       | Agent-Orchestrierung — parallele Claude / Codex-Instanzen via Worktrees       | Electron · Claude SDK · TypeScript Monorepo                 |
-| `rieth.io`                 | Portfolio-Site mit 1999-Geocities-Easter-Egg, Kontakt → Zammad                | Astro · TailwindCSS · Cloudflare Turnstile                  |
 
 ---
 
