@@ -91,15 +91,15 @@ nicht nur auf Folien.
 
 | Projekt                    | Beschreibung                                                                  | Stack                                                       |
 |:---------------------------|:------------------------------------------------------------------------------|:------------------------------------------------------------|
-| `riethio-k8s-gitops`       | GitOps-Repo für den Talos-Kubernetes-Cluster — deklarativ bis zum Tunnel      | Talos Linux · FluxCD · Cloudflare Tunnels                   |
-| `erp.rieth.io`             | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                  | Next.js · FastAPI · PostgreSQL · Kubernetes                 |
-| `altenbach-app`            | Mobile Companion zu iTWO 4.0 — Fahrtenbuch, ERP-Sync, SSO                     | Next.js · Prisma · NextAuth (Entra ID) · Kubernetes 2-Replica |
-| `basec-app`                | Freelancermap-Scraping, semantisches Matching, automatisierte CV/Bewerbung    | FastAPI · React · Playwright · Claude API · WeasyPrint      |
+| `Cluster-GitOps`           | GitOps-Repo für den Talos-Kubernetes-Cluster — deklarativ bis zum Tunnel      | Talos Linux · FluxCD · Cloudflare Tunnels                   |
+| `ERP-Cockpit`              | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                  | Next.js · FastAPI · PostgreSQL · Kubernetes                 |
+| `Altenbach-App`            | Mobile Companion zu iTWO 4.0 — Fahrtenbuch, ERP-Sync, SSO                     | Next.js · Prisma · NextAuth (Entra ID) · Kubernetes 2-Replica |
+| `BaSec`                    | Freelancermap-Scraping, semantisches Matching, automatisierte CV/Bewerbung    | FastAPI · React · Playwright · Claude API · WeasyPrint      |
 | `DORA.KI`                  | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal | Python · Ollama · Qdrant · SentenceTransformers             |
-| `weismehlmedia-app`        | ERP & Projektmanagement, JWT-Auth, Rollen, PDF-Renderer                       | FastAPI · React · SQLAlchemy · FluxCD · Kubernetes          |
-| `gsmb-app`                 | Mini-ERP & digitaler Zwilling für Goldschmiede, Shopify-Anbindung             | Next.js · TypeScript · Shopify                              |
-| `broadify.rieth.io`        | Produkt-Landingpage mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz          | Astro SSR · Tailwind · Resend · Turnstile                   |
-| `mk-re`                    | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook            | Astro SSR · Tailwind · GSAP                                 |
+| `WeismehlMedia-App`        | ERP & Projektmanagement, JWT-Auth, Rollen, PDF-Renderer                       | FastAPI · React · SQLAlchemy · FluxCD · Kubernetes          |
+| `Goldschmiede-App`         | Mini-ERP & digitaler Zwilling für Goldschmiede, Shopify-Anbindung             | Next.js · TypeScript · Shopify                              |
+| `Broadify`                 | Produkt-Landingpage mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz          | Astro SSR · Tailwind · Resend · Turnstile                   |
+| `MKRE`                     | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook            | Astro SSR · Tailwind · GSAP                                 |
 | `SOAR`                     | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN         | FastAPI · Redis · Ollama · Matrix-Bot                       |
 | `Paperless-AI`             | Dokumenten-Tagging, Steuerabzugs-Erkennung, Rechnungs-Extraktion              | FastAPI (RAG) · Node.js · SQLite                            |
 | `Clawdbot`                 | KI-Chatbot über WhatsApp, Telegram, Discord, Slack, Matrix, iMessage          | Node.js · Claude / GPT                                      |
