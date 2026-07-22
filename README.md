@@ -109,18 +109,23 @@ nicht nur auf Folien.
 ### Plattform — riethIO-k8s
 
 ```
-kubernetes   Talos Linux  ·  3 Nodes  ·  FluxCD GitOps  ·  deklarativ bis zum Tunnel
+kubernetes   Talos Linux  ·  3 dedizierte Nodes  ·  FluxCD GitOps  ·  deklarativ bis zum Tunnel
 ci / cd      GitHub Actions / OneDev → Image-Build (GHCR) → FluxCD aufs Cluster
-compute      dedizierte K8s-Nodes  ·  Proxmox VE (Ryzen 9950X · 64 GB DDR5 · 10 G)
+compute      Proxmox VE — Ryzen 9 9950X (16C/32T) · 96 GB DDR5 · NVMe ZFS-Mirror (PCIe 5.0)
+             2× 10 GbE LACP · IPMI out-of-band · ~35 LXC/VMs im 24/7-Betrieb
+ai           dedizierter GPU-Host — RTX 5090 (32 GB VRAM) · Ollama + LiteLLM
+             OpenAI-kompatible Inference-API · Backend für DORA.KI-Compliance-Audits
+storage      Longhorn im Cluster  ·  CNPG-Postgres — 3 Replicas je App
+backup       CNPG Base-Backups + WAL täglich → S3 (MinIO auf NAS) → Cross-Site-
+             Replikation an Zweitstandort (RustFS) via Tunnel  ·  PVE → PBS täglich
 network      7 VLANs  ·  segmentiert  ·  Zero-Trust-Zugriff per WireGuard
-backup       PBS auf Synology NFS  ·  täglich, off-site verifiziert
-data         PostgreSQL zentral · Matrix-Server · Paperless-ngx
 security     Wazuh SIEM · CrowdSec · Quarantäne-VLAN für nicht vertrauenswürdige Geräte
 tunnel       Cloudflare Tunnels — deklarativ per GitOps verwaltet
 ```
 
 Produktiv betriebener Kubernetes-Cluster auf eigener Hardware — Plattform
 für eigene SaaS-Apps und Kunden-Workloads, deklarativ per GitOps verwaltet.
+Datenhaltung über zwei Standorte mit täglicher S3-Replikation.
 
 ---
 
