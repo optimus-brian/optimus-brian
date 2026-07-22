@@ -1,12 +1,12 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-    <img src="./assets/banner-light.svg" alt="rieth.io — Consulting · Engineering · Homelab" width="100%" />
+    <img src="./assets/banner-light.svg" alt="rieth.io — Consulting · Engineering · Platform" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <sub><code>DEVOPS</code> · <code>KUBERNETES</code> · <code>HOMELAB</code> · <code>BAU-IT</code> · <code>KI</code> · <code>AI-SECURITY</code></sub>
+  <sub><code>PLATFORM-ENGINEERING</code> · <code>KUBERNETES</code> · <code>DEVOPS</code> · <code>KI</code> · <code>AI-SECURITY</code> · <code>BAU-IT</code></sub>
 </p>
 
 <p align="center">
@@ -38,13 +38,13 @@ Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
 
 | Bereich                           | Stack & Tools                                                           |
 |:----------------------------------|:------------------------------------------------------------------------|
+| `platform` & Kubernetes           | Talos Linux, Flux GitOps, Docker, Image-Registry, Ingress, Cloudflare Tunnels |
+| `fullstack` & KI                  | Next.js, React, FastAPI, Claude API / MCP, Ollama lokal, Qdrant         |
 | `devops` & Automatisierung        | Git-Pipelines, Kubernetes, IaC, Ansible, Shell, Cron                    |
-| `kubernetes` & Container-Platform | Talos Linux, k3s, Flux GitOps, Docker, LXC, Image-Registry, Ingress     |
+| `ai-security` & Compliance        | Absicherung agentischer KI-Systeme, MCP-Audits, DORA / ISO 27001 / IT-Grundschutz |
+| `observability`                   | Checkmk, Wazuh SIEM, CrowdSec, Grafana, zentrale Log-Aggregation        |
 | `server` & Virtualisierung        | Proxmox VE, LXC, KVM, GPU-Passthrough, PBS, Synology NFS                |
 | `network` & Security              | VLAN-Segmentierung, OPNsense / UniFi UDM, WireGuard, TLS, Zero-Trust    |
-| `observability`                   | Checkmk, Wazuh SIEM, CrowdSec, Grafana, zentrale Log-Aggregation        |
-| `fullstack` & KI                  | Next.js, React, FastAPI, Claude API / MCP, Ollama lokal, Qdrant         |
-| `ai-security` & Compliance        | Absicherung agentischer KI-Systeme, MCP-Audits, DORA / ISO 27001 / IT-Grundschutz |
 | `consulting`                      | Architektur-Reviews, Migrationen, herstellerunabhängige Beratung        |
 
 ---
@@ -56,7 +56,7 @@ Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
 ```
 frontend     Next.js · TypeScript · Tailwind · shadcn/ui · Astro · Vite
 backend      FastAPI · SQLAlchemy · Prisma · PostgreSQL · Alembic
-runtime      Kubernetes (Talos Linux · k3s) · Docker · LXC · Flux CD GitOps
+runtime      Kubernetes (Talos Linux) · Docker · LXC · Flux CD GitOps
 infra        Proxmox VE · OPNsense · UniFi · Synology · WireGuard · Cloudflare Tunnels
 observe      Checkmk · Wazuh · CrowdSec · Grafana · Loki
 ai / ml      Anthropic Claude · Claude Code SDK · MCP · Ollama lokal · Qdrant · RAG
@@ -106,21 +106,21 @@ nicht nur auf Folien.
 
 <sub><code>§ 06 — INFRASTRUKTUR</code></sub>
 
-### Homelab & Kubernetes-Cluster
+### Plattform — riethIO-k8s
 
 ```
-hardware     AM5-Host  ·  Ryzen 9950X  ·  64 GB DDR5  ·  10 G Uplinks
-nodes        24 LXC  ·  diverse VMs  ·  Kubernetes: k3s → Talos Linux (Migration läuft)
-network      11 UniFi-Geräte  ·  7 VLANs  ·  UDM Pro  ·  Unbound + Blocklists
+kubernetes   Talos Linux  ·  3 Nodes  ·  FluxCD GitOps  ·  deklarativ bis zum Tunnel
+ci / cd      GitHub Actions / OneDev → Image-Build (GHCR) → FluxCD aufs Cluster
+compute      dedizierte K8s-Nodes  ·  Proxmox VE (Ryzen 9950X · 64 GB DDR5 · 10 G)
+network      7 VLANs  ·  segmentiert  ·  Zero-Trust-Zugriff per WireGuard
 backup       PBS auf Synology NFS  ·  täglich, off-site verifiziert
-ci / cd      GitHub Actions / OneDev → Image-Build → FluxCD GitOps aufs Cluster
-data         PostgreSQL zentral · Matrix-Server · Paperless-ngx · Jellyfin
-security     Wazuh SIEM · CrowdSec · WireGuard VPN · Quarantäne-VLAN für IoT
+data         PostgreSQL zentral · Matrix-Server · Paperless-ngx
+security     Wazuh SIEM · CrowdSec · Quarantäne-VLAN für nicht vertrauenswürdige Geräte
 tunnel       Cloudflare Tunnels — deklarativ per GitOps verwaltet
 ```
 
-Produktiv betriebener Kubernetes-Cluster — keine Hobby-Spielwiese, sondern
-Plattform für eigene SaaS-Apps und Kunden-Workloads.
+Produktiv betriebener Kubernetes-Cluster auf eigener Hardware — Plattform
+für eigene SaaS-Apps und Kunden-Workloads, deklarativ per GitOps verwaltet.
 
 ---
 
