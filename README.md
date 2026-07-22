@@ -26,7 +26,7 @@ Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
 **Bauunternehmung A. Altenbach GmbH u. Cie**.
 
 ```
-34+ Server & Container   ·   99.9% Uptime SLA   ·   24/7 Monitoring
+35+ Server & Container   ·   99.9% Uptime SLA   ·   24/7 Monitoring
 6+ Jahre Erfahrung       ·   < 5 min Incident Response
 ```
 
