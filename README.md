@@ -137,16 +137,15 @@ Datenhaltung über zwei Standorte mit täglicher S3-Replikation.
 
 ### Kunden
 
-| Kunde                        | Bereich                                          |
-|:-----------------------------|:-------------------------------------------------|
-| Altenbach GmbH u. Cie        | iTWO-Integration, Infrastruktur, Security        |
-| Edeka Markt 042751           | IT-Betreuung                                     |
-| BaSec                        | Freelancer-Plattform, Recruiting-Automation      |
-| Goldschmiede MB              | IT-Beratung                                      |
-| WeismehlMedia                | ERP / CRM / Projektmanagement                    |
-| broadify GmbH                | Produkt-Landingpage & Hosting (Regie-Koffer)     |
-| MK Realestate Consulting     | Firmen-Homepage, Branding-Umsetzung, Hosting     |
-| Texas Smoke Guerilla         | Franchise-Portal, Kalkulationstool, Hosting      |
+Die Projekte unter § 05 sind bewusst ohne Kundennamen beschrieben — wer
+dahinter steht, steht hier. Welches Projekt zu welchem Haus gehört,
+bespreche ich gern im Gespräch.
+
+```
+A. Altenbach GmbH u. Cie   ·   Edeka Markt 042751   ·   BaSec
+Goldschmiede MB            ·   WeismehlMedia        ·   broadify GmbH
+MK Realestate Consulting   ·   Texas Smoke Guerilla
+```
 
 ---
 
