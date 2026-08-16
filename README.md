@@ -19,15 +19,16 @@
 
 ### Profil
 
-IT-Infrastruktur, die funktioniert. Pragmatische Lösungen für Server,
-Netzwerke und Automatisierung — von der Planung bis zum laufenden Betrieb.
+Business-Plattformen mit KI im Kern — ERP-Systeme, Kundenportale und
+KI-Anwendungen für den Mittelstand, entwickelt und betrieben aus einer Hand.
+Wahlweise auf eigener Plattform, in europäischer Cloud oder on-premise beim Kunden.
 
 Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
 **Bauunternehmung A. Altenbach GmbH u. Cie**.
 
 ```
-35+ Server & Container   ·   99.9% Uptime SLA   ·   24/7 Monitoring
-6+ Jahre Erfahrung       ·   < 5 min Incident Response
+5 Plattformen produktiv im Kundeneinsatz   ·   4 Branchen: Bau, Medien, Handel, Immobilien
+Datenhaltung & Modellbetrieb in der EU     ·   6+ Jahre Erfahrung
 ```
 
 ---
@@ -38,10 +39,10 @@ Solo-IT aus dem Rhein-Neckar-Raum, hauptberuflich als Principal-IT bei der
 
 | Bereich                           | Stack & Tools                                                           |
 |:----------------------------------|:------------------------------------------------------------------------|
-| `platform` & Kubernetes           | Talos Linux, Flux GitOps, Docker, Image-Registry, Ingress, Cloudflare Tunnels |
 | `fullstack` & KI                  | Next.js, React, FastAPI, Claude API / MCP, Ollama lokal, Qdrant         |
-| `devops` & Automatisierung        | Git-Pipelines, Kubernetes, IaC, Ansible, Shell, Cron                    |
 | `ai-security` & Compliance        | Absicherung agentischer KI-Systeme, MCP-Audits, DORA / ISO 27001 / IT-Grundschutz |
+| `platform` & Kubernetes           | Talos Linux, Flux GitOps, Docker, Image-Registry, Ingress, Cloudflare Tunnels |
+| `devops` & Automatisierung        | Git-Pipelines, Kubernetes, IaC, Ansible, Shell, Cron                    |
 | `observability`                   | Checkmk, Wazuh SIEM, CrowdSec, Grafana, zentrale Log-Aggregation        |
 | `server` & Virtualisierung        | Proxmox VE, LXC, KVM, GPU-Passthrough, PBS, Synology NFS                |
 | `network` & Security              | VLAN-Segmentierung, OPNsense / UniFi UDM, WireGuard, TLS, Zero-Trust    |
@@ -89,18 +90,21 @@ nicht nur auf Folien.
 
 ### Aktuelle Arbeit
 
-| Projekt                    | Beschreibung                                                                  | Stack                                                       |
-|:---------------------------|:------------------------------------------------------------------------------|:------------------------------------------------------------|
-| `Cluster-GitOps`           | GitOps-Repo für den Talos-Kubernetes-Cluster — deklarativ bis zum Tunnel      | Talos Linux · FluxCD · Cloudflare Tunnels                   |
-| `ERP-Cockpit`              | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                  | Next.js · FastAPI · PostgreSQL · Kubernetes                 |
-| `Altenbach-App`            | Mobile Companion zu iTWO 4.0 — Fahrtenbuch, ERP-Sync, SSO                     | Next.js · Prisma · NextAuth (Entra ID) · Kubernetes 2-Replica |
-| `BaSec`                    | Freelancermap-Scraping, semantisches Matching, automatisierte CV/Bewerbung    | FastAPI · React · Playwright · Claude API · WeasyPrint      |
-| `DORA.KI`                  | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal | Python · Ollama · Qdrant · SentenceTransformers             |
-| `WeismehlMedia-App`        | ERP & Projektmanagement, JWT-Auth, Rollen, PDF-Renderer                       | FastAPI · React · SQLAlchemy · FluxCD · Kubernetes          |
-| `Goldschmiede-App`         | Mini-ERP & digitaler Zwilling für Goldschmiede, Shopify-Anbindung             | Next.js · TypeScript · Shopify                              |
-| `Broadify`                 | Produkt-Landingpage mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz          | Astro SSR · Tailwind · Resend · Turnstile                   |
-| `MKRE`                     | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook            | Astro SSR · Tailwind · GSAP                                 |
-| `SOAR`                     | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN         | FastAPI · Redis · Ollama · Matrix-Bot                       |
+| Projekt                     | Beschreibung                                                                       | Stack                                                    |
+|:----------------------------|:------------------------------------------------------------------------------------|:---------------------------------------------------------|
+| `Unternehmensplattform Bau` | ERP-Integration & Live-Controlling — RIB iTWO 4.0 + MS Dynamics 365 BC per REST & SQL, Fahrtenbuch 60+ Fahrzeuge, digitale Unterschrift, Zeiterfassung | Next.js · Prisma · NextAuth (Entra ID) · MS SQL          |
+| `ERP Medienagentur`         | ERP & Projektmanagement — Kunden, Aufträge, Rechnungen, PDF-Renderer, Zero-Downtime  | FastAPI · React · SQLAlchemy · FluxCD · Kubernetes       |
+| `ERP-Cockpit`               | Custom Business Cockpit — Aufträge, Rechnungen, Kunden, Zeit                         | Next.js · FastAPI · PostgreSQL · Kubernetes              |
+| `Freelancer-Matching`       | Projekt-Scraping, semantisches Matching per Claude API, automatisierte CV/Bewerbung — inkl. eigenem MCP-Server | FastAPI · React · Playwright · Claude API · WeasyPrint   |
+| `DORA.KI`                   | Compliance-Audits gegen DORA / ISO 27001 / BSI-Grundschutz, vollständig lokal        | Python · Ollama · Qdrant · SentenceTransformers          |
+| `Franchise-Portal BBQ`      | Kalkulations- & Franchise-Tool Gastronomie — vom Gramm Fleisch über Marge und Events bis zur Store-Eröffnung (Break-Even, CAPEX) | Next.js 16 · React 19 · PostgreSQL · Tailwind v4         |
+| `Mini-ERP Goldschmiede`     | Digitaler Zwilling — Kostenvoranschläge, Kapazitätsplanung, Kanban, Shopify          | Next.js · TypeScript · Shopify                           |
+| `SOAR`                      | Security-Orchestrator — Alerts → KI-Klassifizierung → Quarantäne-VLAN                | FastAPI · Redis · Ollama · Matrix-Bot                    |
+| `Landingpage Regie-Koffer`  | Produktseite mobiler Regie-Koffer — Demo-Anfragen, Bot-Schutz                        | Astro SSR · Tailwind · Resend · Turnstile                |
+| `Homepage Immobilien`       | Firmen-Homepage Gewerbeimmobilien-Makler, Umsetzung nach Brandbook                   | Astro SSR · Tailwind · GSAP                              |
+| `Cluster-GitOps`            | GitOps-Repo für den Talos-Kubernetes-Cluster — deklarativ bis zum Tunnel             | Talos Linux · FluxCD · Cloudflare Tunnels                |
+
+<sub>Projekte bewusst ohne Kundennamen — wer dahinter steht, steht unter § 07.</sub>
 
 ---
 
@@ -142,6 +146,7 @@ Datenhaltung über zwei Standorte mit täglicher S3-Replikation.
 | WeismehlMedia                | ERP / CRM / Projektmanagement                    |
 | broadify GmbH                | Produkt-Landingpage & Hosting (Regie-Koffer)     |
 | MK Realestate Consulting     | Firmen-Homepage, Branding-Umsetzung, Hosting     |
+| Texas Smoke Guerilla         | Franchise-Portal, Kalkulationstool, Hosting      |
 
 ---
 
